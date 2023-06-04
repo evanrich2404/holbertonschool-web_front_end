@@ -1,0 +1,9 @@
+$no-margin: 0;
+$no-padding: 0;
+$margin10: 10px;
+
+body {
+    margin: $no-margin;
+    padding: $no-padding; }
+    body p {
+        margin: $margin10; }
