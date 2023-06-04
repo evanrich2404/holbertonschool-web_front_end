@@ -1,0 +1,25 @@
+%fontusizuo {
+    font-size: 12px;
+}
+
+%textucoloro {
+    color: #00FF00;
+}
+
+%text-color {
+    color: #FF0000;
+}
+
+.info {
+    @extend %fontusizuo;
+    @extend %textucoloro;
+}
+
+.success {
+    @extend %textucoloro;
+}
+
+.warning {
+    @extend %text-color;
+    @extend %fontusizuo;
+}
