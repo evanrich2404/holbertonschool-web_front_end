@@ -12,11 +12,11 @@
 
 .info {
     @extend %fontusizuo;
-    @extend %textucoloro;
 }
 
 .success {
     @extend %textucoloro;
+    @extend %fontusizuo;
 }
 
 .warning {
