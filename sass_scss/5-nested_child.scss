@@ -1,0 +1,10 @@
+$first-text-color: #3D3D3D;
+$second-text-color: #FF0000;
+
+body {
+    color: $first-text-color;
+
+    > .red:first-child {
+        color: $second-text-color;
+    }
+}
