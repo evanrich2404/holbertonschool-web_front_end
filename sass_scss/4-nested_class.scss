@@ -2,6 +2,9 @@ $first-text-color: #3D3D3D;
 $second-text-color: #FF0000;
 
 body {
-    color: $first-text-color; }
+    color: $first-text-color;
+
     body .red {
-        color: $second-text-color; }
+        color: $second-text-color;
+    }
+}
