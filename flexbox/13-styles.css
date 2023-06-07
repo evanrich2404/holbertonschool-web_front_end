@@ -599,7 +599,7 @@ ul.row {
 }
 
 .post-meta-list [class^="post-meta"]:last-child {
-	border: '';
+	border: 0;
 	margin-bottom: 3rem;
 }
 
