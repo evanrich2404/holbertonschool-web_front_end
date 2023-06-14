@@ -135,6 +135,7 @@ fieldset {
     display: flex;
     justify-content: flex-start;
     border: none;
+    flex-direction: column;
 }
 
 legend {
