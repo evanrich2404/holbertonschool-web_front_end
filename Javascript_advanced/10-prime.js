@@ -16,6 +16,8 @@ function countPrimeNumbers() {
 }
 
 let start = performance.now();
-countPrimeNumbers();
+for(let i = 0; i < 100; i++) {
+  countPrimeNumbers();
+}
 let end = performance.now();
 console.log("Execution time of printing countPrimeNumbers was " + (end - start) + " milliseconds.");
