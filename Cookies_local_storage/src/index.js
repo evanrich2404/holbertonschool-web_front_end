@@ -1,12 +1,19 @@
+// JavaScript code
+
 const firstNameInput = document.getElementById('firstname');
 const emailInput = document.getElementById('email');
 
 function setCookies() {
   const firstName = firstNameInput.value;
   const email = emailInput.value;
+  
+  // get the date 10 days from now
+  const date = new Date();
+  date.setDate(date.getDate() + 10);
+  const expires = `expires=${date.toUTCString()}`;
 
-  document.cookie = `firstname=${firstName}`;
-  document.cookie = `email=${email}`;
+  document.cookie = `firstname=${firstName};${expires}`;
+  document.cookie = `email=${email};${expires}`;
 }
 
 function showCookies() {
@@ -25,7 +32,6 @@ function showCookies() {
     }
   }
 }
-
 
 const loginBtn = document.getElementById('loginBtn');
 loginBtn.addEventListener('click', setCookies);
