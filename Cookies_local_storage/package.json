@@ -1,0 +1,23 @@
+{
+  "name": "Cookies_local_storage",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "dependencies": {
+    "webpack": "^5.88.2",
+    "webpack-cli": "^5.1.4",
+    "webpack-dev-server": "^4.15.1"
+  },
+  "devDependencies": {
+    "webpack": "^5.88.2",
+    "webpack-dev-server": "^4.15.1",
+    "webpack-cli": "^5.1.4"
+  },
+  "scripts": {
+    "start": "webpack serve --open --mode development",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}

@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<title>Cookie Example</title>
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+</head>
+
+<body class="m-5">
+	<div class="container">
+		<div class="mb-5">
+			<h2>Login to the website</h2>
+			<div class="form-row align-items-center">
+				<div class="col-sm-3 my-1">
+					<input type="text" class="form-control" id="firstname" placeholder="First Name">
+				</div>
+				<div class="col-sm-3 my-1">
+					<input type="text" class="form-control" id="email" placeholder="Email">
+				</div>
+				<div class="col-auto my-1">
+					<button id="loginBtn" class="btn btn-primary">Log me in</button>
+				</div>
+			</div>
+		</div>
+
+		<div>
+			<h2>Cookies</h2>
+			<button id="showBtn" class="btn btn-primary">Show the cookies</button>
+			<div id="cookieContainer" class="d-flex flex-column mt-3"></div>
+		</div>
+	</div>
+
+	<script src="/bundle.js"></script>
+</body>
+
+</html>
